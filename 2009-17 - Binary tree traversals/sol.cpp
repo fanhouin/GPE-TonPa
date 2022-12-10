@@ -32,8 +32,7 @@ int main(){
     while(round--){
         int size;
         string s;
-        vector<string> in;
-        vector<string> pre;
+        vector<string> in, pre;
         cin >> size;
         for(int i = 0; i < size; i++){
             cin >> s;
